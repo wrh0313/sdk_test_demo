@@ -1,0 +1,3 @@
+include ':uilibrary'
+include ':app'
+rootProject.name = "sdk_test_demo"

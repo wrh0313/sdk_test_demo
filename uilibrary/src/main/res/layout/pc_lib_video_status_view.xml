@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@color/pc_video_lib_transparent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/loading_iv"
+            android:layout_width="76dp"
+            android:layout_height="62dp" />
+
+        <TextView
+            android:id="@+id/loading_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:text="玩命加载中..."
+            android:textColor="#999999"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/error_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/pc_video_lib_transparent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/tip_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pc_lib_video_error" />
+
+        <TextView
+            android:id="@+id/tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="40dp"
+            android:gravity="center"
+            android:lineSpacingExtra="2dp"
+            android:text="啊哦，页面加载出问题了"
+            android:textColor="#999999"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/reload"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:background="@drawable/pc_lib_video_reload_bg"
+            android:gravity="center"
+            android:minWidth="160dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:text="重新加载"
+            android:textColor="@color/pc_video_lib_main_green_text_color"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:id="@+id/novideo_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f8f8f8"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingTop="86dp"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/no_videodata_img"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+        <TextView
+            android:id="@+id/no_videodata_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="30dp"
+            android:gravity="center"
+            android:lineSpacingExtra="2dp"
+            android:textColor="#ff666666"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/video_btn"
+            android:layout_width="210dp"
+            android:layout_height="40dp"
+            android:background="@drawable/pc_lib_video_take_video"
+            android:gravity="center"
+            android:textColor="#fff8f8f8"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/ll_new_loading_progress"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:background="@color/pc_video_lib_transparent"-->
+<!--        android:gravity="center"-->
+<!--        android:orientation="vertical"-->
+<!--        android:visibility="gone">-->
+
+<!--        <ProgressBar-->
+<!--            android:id="@+id/new_progress_bar"-->
+<!--            android:layout_width="35dp"-->
+<!--            android:layout_height="35dp"-->
+<!--            android:layout_centerInParent="true"-->
+<!--            android:indeterminateDrawable="@drawable/progress_bar"-->
+<!--            android:indeterminateDuration="1200" />-->
+
+<!--    </LinearLayout>-->
+
+
+</merge>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

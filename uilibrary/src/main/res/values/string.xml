@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pc_lib_video_no_data_hint">抱歉没有相关数据</string>
+    <string name="pc_lib_video_network_fail_retry_hint">啊哦，页面加载出问题了</string>
+</resources>
